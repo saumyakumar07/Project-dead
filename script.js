@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
 	e.preventDefault();
 	const userInput = codeInput.value.trim();
 	if (userInput === secretCode) {
-		resultDiv.innerHTML = 'Baby';
+		resultDiv.innerHTML = 'baby';
 		window.location.href = nextPageUrl; // Redirect to new page
 	} else {
 		resultDiv.innerHTML = 'Naaaaaaaaa! <p> Tum meri baby nhi hoo! <p> kon hooo tum? <p>kaha hai meri Baby ';
